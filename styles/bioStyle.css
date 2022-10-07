@@ -1,0 +1,37 @@
+#bioImage {
+  /* position: relative; */
+  /* overflow: hidden; */
+  width: 30%;
+  padding: 5px; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+float: left;
+box-sizing: border-box;
+}
+
+#personalInfo{
+  width: 70%;
+  float: right;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: larger;
+  padding: 2px;
+  /* border: 1px dotted black; */
+  line-height: 30px;
+  
+}
+
+#address{
+  list-style-image: url(../images/address-logo.png);
+}
+#email{
+  list-style-image: url(../images/email-logo.png);
+}
+#telefon{
+  list-style-image: url(../images/telefon-logo.jpg);
+}
+#linkedin{
+  list-style-image: url(../images/linkedin-logo.jpg);
+}
+#github{
+  list-style-image: url(../images/github-logo.png);
+}
