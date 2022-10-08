@@ -4,26 +4,54 @@ img {
   height: auto;
   width: auto;
 }
-
 div{
+  display: inline-block;
+}
+/* div{
   -webkit-text-size-adjust: auto;
   text-size-adjust: auto;
-}
+} */
 
 /* Then style the iframe to fit in the container div with full height and width */
 
-.responsive-iframe {
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  /* width: 100%;
-  min-height: 40%;
-  height: auto; */
+.responsive-iframe-Bio {
   width: calc(100.0vw);
-  height: calc(40.0vh);
+  height: calc(8.5vw + 25.0vh);
+}
+
+.responsive-iframe-KeyQuali {
+  width: calc(100.0vw);
+  height: calc(8.5vw + 25.0vh);
   /* background-color: khaki; */
 }
 
+
+/* body{
+  line-height: 200%;
+  font-size: calc(0.8vw + 1.3vh + 1vmin);
+  
+} */
+
+summary{
+  font-weight: bolder;
+  font-size: calc(0.9vw + 0.8vh + 1vmin);
+  padding: calc(0.4vw + 0.4vh + 1vmin);
+  cursor: pointer;
+  background-color: darkgrey;
+}
+
+summary::marker {
+  /* content: '+'; */
+  color: black;
+  /* font-size: 1.2em; */
+ }
+ 
+li{
+  background-color:rgb(237, 237, 237);
+  font-size: calc(0.6vw + 0.6vh + 1vmin);
+  padding: calc(0.1vw + 0.1vh + 1vmin);
+  padding-left: calc(0.9vw + 0.2vh + 1vmin);
+  line-height: auto;
+  
+}
 

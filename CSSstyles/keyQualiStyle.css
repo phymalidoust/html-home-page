@@ -1,5 +1,27 @@
 
 body{
-        line-height: 40px;
+        line-height: calc(2.0vw + 1.3vh + 1vmin);
         font-size: calc(0.8vw + 1.3vh + 1vmin);
+        
+}
+
+summary{
+        font-weight: bolder;
+        font-size: calc(1.3vw + 1.6vh + 1vmin);
+        padding: calc(0.8vw + 1.0vh + 1vmin);
+        cursor: pointer;
+        background-color: darkgrey;
+}
+
+summary::marker {
+        /* content: '+'; */
+        color: black;
+        /* font-size: 1.2em; */
+       }
+       
+li{
+        background-color:rgb(237, 237, 237);
+        line-height: 200%;
+        padding-left: 1.6%;
+        
 }
