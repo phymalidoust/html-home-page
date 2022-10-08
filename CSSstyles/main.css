@@ -1,0 +1,29 @@
+
+img {
+  max-width: 110%;
+  height: auto;
+  width: auto;
+}
+
+div{
+  -webkit-text-size-adjust: auto;
+  text-size-adjust: auto;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+
+.responsive-iframe {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* width: 100%;
+  min-height: 40%;
+  height: auto; */
+  width: calc(100.0vw);
+  height: calc(40.0vh);
+  /* background-color: khaki; */
+}
+
+

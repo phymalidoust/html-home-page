@@ -1,0 +1,56 @@
+img {
+  max-width: 120%;
+  height: auto;
+  width: auto;
+}
+
+figure {
+  text-align: center;
+  text-indent: 0;
+  margin: 0.0em;
+  padding: 0.0em;
+  font-weight:bolder;
+ /*percentage of the view point */
+  font-size: calc(1.0vw + 1.6vh + 1vmin);
+  font-size-adjust: 0.38;
+}
+
+
+
+#bioImage {
+  /* position: relative; */
+  /* overflow: hidden; */
+  width: 20%;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-bottom: 0%;
+float: left;
+box-sizing: border-box;
+}
+
+#personalInfo{
+  width: 80%;
+  float: right;
+  box-sizing: border-box;
+  padding-top: 3%;
+  padding-left: 3%;
+  /* border: 1px dotted black; */
+  line-height: 40px;
+  font-size: calc(0.8vw + 1.3vh + 1vmin);
+}
+
+#address{
+  list-style-image: url(../Images/address-logo.png);
+}
+#email{
+  list-style-image: url(../Images/email-logo.png);
+}
+#telefon{
+  list-style-image: url(../Images/telefon-logo.jpg);
+}
+#linkedin{
+  list-style-image: url(../Images/linkedin-logo.jpg);
+}
+#github{
+  list-style-image: url(../Images/github-logo.png);
+}
