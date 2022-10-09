@@ -1,12 +1,57 @@
 
 img {
-  max-width: 110%;
+  max-width: 80%;
   height: auto;
   width: auto;
 }
-div{
-  display: inline-block;
+
+figure {
+  text-align: center;
+  text-indent: 0;
+  margin: 0.0em;
+  padding: 0.0em;
+  font-weight:bolder;
+ /*percentage of the view point */
+  font-size: calc(0.7vw + 0.7vh + 1vmin);
+  font-size-adjust: 0.38;
 }
+
+#address{
+  list-style-image: url(../Images/address-logo.png);
+  background-color: white;
+  font-size: calc(0.6vw + 0.6vh + 1vmin);
+}
+#email{
+  list-style-image: url(../Images/email-logo.png);
+  background-color: white;
+  font-size: calc(0.6vw + 0.6vh + 1vmin);
+}
+#telefon{
+  list-style-image: url(../Images/telefon-logo.jpg);
+  background-color: white;
+  font-size: calc(0.6vw + 0.6vh + 1vmin);
+}
+#linkedin{
+  list-style-image: url(../Images/linkedin-logo.jpg);
+  background-color: white;
+  font-size: calc(0.6vw + 0.6vh + 1vmin);
+}
+#github{
+  list-style-image: url(../Images/github-logo.png);
+  background-color: white;
+  font-size: calc(0.6vw + 0.6vh + 1vmin);
+}
+
+
+
+/* img {
+  max-width: 110%;
+  height: auto;
+  width: auto;
+} */
+/* div{
+  display: inline-block;
+} */
 /* div{
   -webkit-text-size-adjust: auto;
   text-size-adjust: auto;
@@ -14,16 +59,10 @@ div{
 
 /* Then style the iframe to fit in the container div with full height and width */
 
-.responsive-iframe-Bio {
+/* .responsive-iframe-Bio {
   width: calc(100.0vw);
-  height: calc(8.5vw + 25.0vh);
-}
-
-.responsive-iframe-KeyQuali {
-  width: calc(100.0vw);
-  height: calc(8.5vw + 25.0vh);
-  /* background-color: khaki; */
-}
+  height: calc(7.5vw + 20.0vh);
+} */
 
 
 /* body{
@@ -34,24 +73,107 @@ div{
 
 summary{
   font-weight: bolder;
-  font-size: calc(0.9vw + 0.8vh + 1vmin);
-  padding: calc(0.4vw + 0.4vh + 1vmin);
+  font-size: calc(0.6vw + 0.6vh + 1vmin);
+  padding: calc(0.1vw + 0.1vh + 0.5vmin);
   cursor: pointer;
-  background-color: darkgrey;
+  background-color: rgb(190, 190, 190);
+  margin-left: 0.5%
 }
 
 summary::marker {
   /* content: '+'; */
   color: black;
   /* font-size: 1.2em; */
+
  }
  
 li{
   background-color:rgb(237, 237, 237);
   font-size: calc(0.6vw + 0.6vh + 1vmin);
-  padding: calc(0.1vw + 0.1vh + 1vmin);
+  padding: calc(0.1vw + 0.1vh + 0.4vmin);
   padding-left: calc(0.9vw + 0.2vh + 1vmin);
   line-height: auto;
   
+}
+p{
+  background-color:rgb(237, 237, 237);
+  font-size: calc(0.6vw + 0.6vh + 1vmin);
+  padding: calc(0.1vw + 0.1vh + 0.4vmin);
+  padding-left: calc(0.9vw + 0.2vh + 1vmin);
+  line-height: auto;
+  margin-top: 0.3%;
+  margin-bottom: 0.5%;
+  
+}
+
+
+
+
+/* article {
+	margin-left: 16px;
+  padding: 0%;
+} */
+/* details > p {
+	margin-left: 24px;
+} */
+details li{
+  margin-left: calc(1.9vw + 1.0vh + 1vmin);
+  font-size: calc(0.5vw + 0.5vh + 1vmin);
+}
+details p{
+  margin-left: calc(1.9vw + 1.0vh + 1vmin);
+}
+details details {
+	margin-left: calc(1.9vw + 1.0vh + 1vmin);
+  /* font-size: calc(0.6vw + 0.6vh + 1vmin); */
+}
+details details summary {
+	font-size: calc(0.5vw + 0.5vh + 1vmin);
+  background-color: rgb(209, 208, 208);
+}
+
+details details li {
+	background-color:rgb(237, 237, 237);
+  font-size: calc(0.5vw + 0.5vh + 1vmin);
+}
+details details p {
+	background-color:rgb(237, 237, 237);
+  font-size: calc(0.5vw + 0.5vh + 1vmin);
+}
+
+.hrSmall{
+  visibility:hidden; 
+  margin: 0.08%;
+}
+.hrMedium{
+  visibility:hidden; 
+  margin: 0.12%; 
+}
+
+
+.row {
+  display: flex;
+  margin-left:calc(0.7vw + 0.7vh + 1.2vmin);
+  margin-right:0%;
+}
+.column {
+  flex: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 60%;
+  /* border: 1px solid #ddd; */
+}
+
+th, td {
+  text-align: left;
+  padding: calc(0.1vw + 0.1vh + 0.4vmin);
+  font-size: calc(0.5vw + 0.5vh + 1vmin);
+}
+
+tr:nth-child(odd) {
+  background-color: #e6e4e4;
 }
 
