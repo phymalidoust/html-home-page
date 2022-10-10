@@ -123,6 +123,9 @@ details li{
 details p{
   margin-left: calc(1.9vw + 1.0vh + 1vmin);
 }
+details table{
+  margin-left: calc(0.2vw + 0.15vh + 1vmin);
+}
 details details {
 	margin-left: calc(1.9vw + 1.0vh + 1vmin);
   /* font-size: calc(0.6vw + 0.6vh + 1vmin); */
@@ -140,6 +143,7 @@ details details p {
 	background-color:rgb(237, 237, 237);
   font-size: calc(0.5vw + 0.5vh + 1vmin);
 }
+
 
 .hrSmall{
   visibility:hidden; 
