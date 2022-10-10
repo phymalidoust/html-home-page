@@ -17,27 +17,27 @@ figure {
 }
 
 #address{
-  list-style-image: url(.././Images/address-logo.png);
+  list-style-image: url(.././images/address-logo.png);
   background-color: white;
   font-size: calc(0.6vw + 0.6vh + 1vmin);
 }
 #email{
-  list-style-image: url(.././Images/email-logo.png);
+  list-style-image: url(.././images/email-logo.png);
   background-color: white;
   font-size: calc(0.6vw + 0.6vh + 1vmin);
 }
 #telefon{
-  list-style-image: url(.././Images/telefon-logo.jpg);
+  list-style-image: url(.././images/telefon-logo.jpg);
   background-color: white;
   font-size: calc(0.6vw + 0.6vh + 1vmin);
 }
 #linkedin{
-  list-style-image: url(.././Images/linkedin-logo.jpg);
+  list-style-image: url(.././images/linkedin-logo.jpg);
   background-color: white;
   font-size: calc(0.6vw + 0.6vh + 1vmin);
 }
 #github{
-  list-style-image: url(.././Images/github-logo.png);
+  list-style-image: url(.././images/github-logo.png);
   background-color: white;
   font-size: calc(0.6vw + 0.6vh + 1vmin);
 }
